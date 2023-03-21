@@ -8,7 +8,7 @@ class WaterDispenser
 
   def dispense(vessel)
     reservoir.drain(vessel.volume)
-    #not really sure this is what we're going for
+#not really sure this is what we're going for, but reservoir.fill isn't working the way I think it should
     reservoir.current_water_volume = reservoir.capacity
   end
 
